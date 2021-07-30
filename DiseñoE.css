@@ -1,0 +1,72 @@
+table.inicioL{
+  background-color: 	#ab9cc7;
+    width: 1000px;
+    text-align: center;
+    font-family: Verdana;
+    border-collapse: collapse;
+}
+
+h1.desa {
+    font-size: 45px; 
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+h2.intro{
+  font: 20px; 
+  color:black;
+  font-family: "Consolas", monospace;
+  text-align: center;
+}
+
+.table-responsive{
+  margin: 50px;
+ width: 800PX;
+}
+
+table.atributos{
+  background-color: #dfd8ee;
+  width: 1000px;
+  text-align: left;
+  border-collapse: collapse;
+  border-bottom: 2px groove;
+}
+
+table.elementos{
+  background-color: #a28fc9;
+  width: 1000px;
+  text-align: left;
+  border-collapse: collapse;
+  border-bottom: 2px groove;
+  align-items:  center;
+}
+
+tr:nth-child(even)
+{
+  background-color: #ddd;
+}
+tr:hover{
+  background-color:white;
+}
+td,tr{
+  border:2px solid white;
+  padding: 5px;
+}
+
+h2.Ele{
+ margin: 20px;
+  color:black ;
+  font-family: "Consolas";
+  text-align: left;
+}
+
+h2.atri{
+  margin: 20px;
+   color:black ;
+   font-family: "Consolas";
+   text-align: left;
+ }
+body.ElementosI
+{
+ background-color:#FCF3CF;
+ }
