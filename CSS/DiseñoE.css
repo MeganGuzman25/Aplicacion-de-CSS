@@ -38,7 +38,7 @@ table.elementos{
   text-align: left;
   border-collapse: collapse;
   border-bottom: 2px groove;
-  align-items:  center;
+ 
 }
 
 tr:nth-child(even)

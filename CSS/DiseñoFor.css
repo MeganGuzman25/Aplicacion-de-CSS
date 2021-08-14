@@ -1,0 +1,93 @@
+th{
+  text-align: center;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  font-size:20px;
+}
+
+#principal{
+   border: black 2px;
+   width: 700px; 
+   height:600x;
+   margin-left: auto;
+   margin-right: auto;
+   margin: 0 auto;
+ 
+}
+
+
+.Formulario
+{
+padding: 10px;
+}
+
+.Formulario1
+{
+padding: 10px;
+}
+
+tr{
+  border: black 1px solid;
+  }
+  td{
+    border: black 1px solid;
+    width: 250px;
+    }
+
+.Boton{
+  width: 300px;
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background-color: darkblue;
+  padding: 10px;
+  }
+
+  body{
+    background: url(../Imagenes/images.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+  @media only screen and 
+  (min-device-width: 768px) and
+  (max-device-width: 1024px) and
+  (-webkit-min-device-pixel-radio:5){
+    #principal{
+     width: 67%;
+     height: 67%;
+     align-items: center;
+     align-content: center;
+      }
+    }
+  
+    @media only screen and 
+    (min-device-width: 320px) and
+    (max-device-width: 480px) and
+    (-webkit-min-device-pixel-radio:2){
+      #principal{
+      margin-top: 40%;
+       width: 50%;
+       height: 20%;
+       align-items: center;
+       align-content: center;
+        }
+      }
+
+      table.inicioL{
+        background-color: 	#53def7;
+          width: 680px;
+          text-align: center;
+          font-family: Verdana;
+          border-collapse: collapse
+      }
+  h1{
+    background-color: #53def7;
+      width: 680px;
+      text-align: center;
+      font-family: Verdana;
+      border-collapse: collapse;
+  }
